@@ -56,6 +56,9 @@ body{
     font-family: "Poppins", sans-serif;
     color: #61a5c2;
 }
+.campo_de_cadastro a:hover{
+    color: #01497c;
+}
 #termos{
     width: fit-content;
     accent-color: #01497c;
