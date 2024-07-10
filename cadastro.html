@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cadastro.css">
+    <title>Página de Log-In</title>
+</head>
+<body>
+
+    <div class="div_pai">
+        <img src="https://img.freepik.com/fotos-premium/imagem-do-signo-do-zodiaco-leao_763713-2918.jpg" alt="">
+        <div class="campo_de_cadastro">
+            <h1>CADASTRE-SE</h1>
+            
+            <label>
+                Username:
+                <br>
+                <input type="text" minlength="5">
+            </label>
+                <br>
+                <br>
+            <label>
+                E-mail:
+                <br>
+                <input type="email">
+            </label>
+                <br>
+                <br>
+            <label>
+                Password:
+                <br>
+                <input type="text" minlength="7" maxlength="12">
+            </label>
+                <br>
+                <br>
+            <label>
+                <input type="checkbox" id="termos" required> Li e Concordo com os <b><a href="">termos</a></b>
+                <br>
+                <br>
+            </label>
+            <button type="button" onclick="cadastrar()">Entrar</button>
+            <p>Possui uma conta? <b><a href="login.html">Log-In</a></b></p>
+                <br>
+                <div id="nao_aceitou_os_termos"></div>
+        </div>
+    </div>
+    <script src="cadastro.js"></script>
+</body>
+</html>
